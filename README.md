@@ -148,34 +148,26 @@ python src/rules.py
 
 ```python
 from src.environment import generate_instance
-from src.search import dijkstra, a_star, weighted_a_star
-from src.planner import ClassicalPlanner
-from src.metaheuristics import hill_climbing, simulated_annealing
-from src.rules import RoverRuleExpertSystem
+from src.search import a_star
 
-# Generar instancia
-env = generate_instance(width=20, height=20, num_pois=5, rock_ratio=0.15, seed=42)
+# 1. Creamos el mapa
+mi_mapa = generate_instance(width=10, height=10, num_pois=2, seed=99)
 
-# Búsqueda de ruta
-start = (env.base.x, env.base.y)
-goal = (env.pois[0].x, env.pois[0].y)
-path, metrics = dijkstra(env, start, goal)
+# 2. Usamos la Base como inicio y el primer POI como meta (garantizados no-obstáculo)
+inicio = (mi_mapa.base.x, mi_mapa.base.y)
+meta = (mi_mapa.pois[0].x, mi_mapa.pois[0].y)
 
-# Planificación
-planner = ClassicalPlanner(env)
-plan, cost, stats = planner.plan_mission()
+# 3. Calculamos la ruta óptima
+camino, metricas = a_star(mi_mapa, inicio, meta)
 
-# Metaheurísticas
-solution = hill_climbing(env, max_evaluations=10000, seed=42)
-
-# Sistema de reglas
-expert_system = RoverRuleExpertSystem()
-facts = expert_system.extract_facts_from_rover(
-    env, rover_pos=(env.base.x, env.base.y),
-    battery=100.0, memory_used=0,
-    collected_ids=set(), analyzed_ids=set(), transmitted_ids=set()
+# 4. Imprimimos el resultado
+print(f"Ruta desde la Base {inicio} hasta POI_0 {meta}:")
+print("Costo total:", metricas.total_cost)
+print("Nodos expandidos:", metricas.nodes_expanded)
+print("Longitud en pasos:", metricas.path_length)
+print("Camino:", camino)
 )
-decision, reason, fired_rules = expert_system.decide(facts)
+
 ```
 
 ## Resultados Esperados
