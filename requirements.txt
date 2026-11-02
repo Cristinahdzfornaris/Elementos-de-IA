@@ -1,0 +1,21 @@
+# Rover Autónomo - Proyecto 1 de Inteligencia Artificial
+# Dependencias necesarias
+
+# Librerías estándar de Python (no requieren instalación)
+# - random
+# - math
+# - statistics
+# - time
+# - sys
+# - os
+# - csv
+# - heapq
+# - dataclasses
+# - enum
+# - typing
+# - collections
+
+# Librerías opcionales para análisis y visualización
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.4.0

@@ -1,0 +1,111 @@
+=== MÓDULO A: BÚSQUEDA ===
+Instance,Seed,Algorithm,Path Length,Total Cost,Nodes Expanded,CPU Time,Found Path
+1,42,Dijkstra,20,23.0,179,0.0005028247833251953,True
+1,42,A* (Euclídea),20,23.0,95,0.0,True
+1,42,A* (Admisible),20,23.0,79,0.001504659652709961,True
+1,42,Weighted A* (w=1.5),20,23.0,28,0.0,True
+1,42,Weighted A* (w=3.0),20,29.0,21,0.0,True
+1,42,Dijkstra,6,6.0,14,0.0,True
+1,42,A* (Euclídea),6,6.0,8,0.0,True
+1,42,A* (Admisible),6,6.0,7,0.0,True
+1,42,Weighted A* (w=1.5),6,6.0,6,0.0,True
+1,42,Weighted A* (w=3.0),6,6.0,6,0.0,True
+1,42,Dijkstra,20,22.0,173,0.0010912418365478516,True
+1,42,A* (Euclídea),20,22.0,88,0.0,True
+1,42,A* (Admisible),20,22.0,78,0.0009238719940185547,True
+1,42,Weighted A* (w=1.5),20,22.0,38,0.0,True
+1,42,Weighted A* (w=3.0),18,26.0,19,0.0,True
+2,101,Dijkstra,6,5.0,34,0.0009996891021728516,True
+2,101,A* (Euclídea),6,5.0,9,0.0,True
+2,101,A* (Admisible),6,5.0,9,0.0,True
+2,101,Weighted A* (w=1.5),6,5.0,6,0.0,True
+2,101,Weighted A* (w=3.0),6,5.0,6,0.0,True
+2,101,Dijkstra,6,5.0,33,0.0,True
+2,101,A* (Euclídea),6,5.0,7,0.0015039443969726562,True
+2,101,A* (Admisible),6,5.0,7,0.0,True
+2,101,Weighted A* (w=1.5),6,5.0,6,0.0,True
+2,101,Weighted A* (w=3.0),6,5.0,6,0.0,True
+2,101,Dijkstra,8,10.0,116,0.00087738037109375,True
+2,101,A* (Euclídea),8,10.0,35,0.0,True
+2,101,A* (Admisible),8,10.0,31,0.0009946823120117188,True
+2,101,Weighted A* (w=1.5),8,10.0,15,0.0,True
+2,101,Weighted A* (w=3.0),8,10.0,8,0.0,True
+3,202,Dijkstra,19,24.0,296,0.0010826587677001953,True
+3,202,A* (Euclídea),19,24.0,135,0.0,True
+3,202,A* (Admisible),19,24.0,102,0.0010924339294433594,True
+3,202,Weighted A* (w=1.5),19,24.0,25,0.0,True
+3,202,Weighted A* (w=3.0),19,24.0,21,0.0,True
+3,202,Dijkstra,4,4.0,14,0.0,True
+3,202,A* (Euclídea),4,4.0,5,0.0,True
+3,202,A* (Admisible),4,4.0,4,0.0,True
+3,202,Weighted A* (w=1.5),4,4.0,4,0.0,True
+3,202,Weighted A* (w=3.0),4,4.0,4,0.0,True
+3,202,Dijkstra,12,16.0,161,0.0,True
+3,202,A* (Euclídea),12,16.0,45,0.0015039443969726562,True
+3,202,A* (Admisible),12,16.0,38,0.0,True
+3,202,Weighted A* (w=1.5),12,16.0,26,0.0,True
+3,202,Weighted A* (w=3.0),12,18.0,13,0.00106048583984375,True
+4,303,Dijkstra,13,14.0,150,0.0009853839874267578,True
+4,303,A* (Euclídea),13,14.0,56,0.0,True
+4,303,A* (Admisible),13,14.0,46,0.0005035400390625,True
+4,303,Weighted A* (w=1.5),11,14.0,24,0.0,True
+4,303,Weighted A* (w=3.0),13,16.0,13,0.0,True
+4,303,Dijkstra,18,19.0,253,0.0016622543334960938,True
+4,303,A* (Euclídea),18,19.0,76,0.0,True
+4,303,A* (Admisible),18,19.0,44,0.0,True
+4,303,Weighted A* (w=1.5),18,20.0,23,0.0,True
+4,303,Weighted A* (w=3.0),18,24.0,19,0.0,True
+4,303,Dijkstra,18,20.0,273,0.0009992122650146484,True
+4,303,A* (Euclídea),18,20.0,86,0.0,True
+4,303,A* (Admisible),18,20.0,60,0.0010020732879638672,True
+4,303,Weighted A* (w=1.5),18,20.0,23,0.0,True
+4,303,Weighted A* (w=3.0),18,27.0,18,0.0,True
+5,404,Dijkstra,11,24.0,280,0.0010957717895507812,True
+5,404,A* (Euclídea),11,24.0,104,0.0,True
+5,404,A* (Admisible),11,24.0,81,0.0,True
+5,404,Weighted A* (w=1.5),11,24.0,48,0.0,True
+5,404,Weighted A* (w=3.0),11,26.0,11,0.0,True
+5,404,Dijkstra,29,41.0,607,0.0032575130462646484,True
+5,404,A* (Euclídea),29,41.0,270,0.000926971435546875,True
+5,404,A* (Admisible),29,41.0,200,0.0,True
+5,404,Weighted A* (w=1.5),29,41.0,93,0.001294851303100586,True
+5,404,Weighted A* (w=3.0),27,47.0,27,0.0,True
+5,404,Dijkstra,29,40.0,591,0.0020842552185058594,True
+5,404,A* (Euclídea),29,40.0,314,0.0016291141510009766,True
+5,404,A* (Admisible),29,40.0,226,0.0013225078582763672,True
+5,404,Weighted A* (w=1.5),29,40.0,96,0.0,True
+5,404,Weighted A* (w=3.0),29,44.0,43,0.0,True
+
+=== MÓDULO SIMBÓLICO: PLANIFICACIÓN ===
+Instance,Seed,Plan Length,Total Cost,Actions by Type
+1,42,19,86.0,"{'mover': 6, 'tomar_muestra': 4, 'analizar_muestra': 4, 'transmitir': 4, 'recargar': 1}"
+2,101,23,82.0,"{'mover': 8, 'tomar_muestra': 5, 'analizar_muestra': 5, 'transmitir': 5}"
+3,202,29,165.0,"{'mover': 10, 'tomar_muestra': 6, 'analizar_muestra': 6, 'transmitir': 6, 'recargar': 1}"
+4,303,38,188.0,"{'mover': 13, 'tomar_muestra': 8, 'analizar_muestra': 8, 'transmitir': 8, 'recargar': 1}"
+5,404,51,487.0,"{'mover': 18, 'tomar_muestra': 10, 'analizar_muestra': 10, 'recargar': 3, 'transmitir': 10}"
+
+=== MÓDULO D: METAHEURÍSTICAS ===
+Instance,Seed,Algorithm,Runs,Mean Fitness,Std Fitness,Mean Cost,Std Cost,Mean Value,Std Value,Feasible Rate
+1,42,Hill Climbing,15,223.48676232922924,0.557887170705779,77.53333333333333,5.578871707057757,231.24009566256257,0.0,1.0
+1,42,Simulated Annealing,15,223.74009566256257,0.0,75.0,0.0,231.24009566256257,0.0,1.0
+1,42,Genetic Algorithm,15,223.74009566256257,0.0,75.0,0.0,231.24009566256257,0.0,1.0
+2,101,Hill Climbing,15,294.0504255989187,0.4910629869404453,52.6,4.9106298694043025,299.3104255989187,2.0001253646711258e-14,1.0
+2,101,Simulated Annealing,15,294.6104255989187,0.0,47.0,0.0,299.3104255989187,0.0,1.0
+2,101,Genetic Algorithm,15,294.6104255989187,0.0,47.0,0.0,299.3104255989187,0.0,1.0
+3,202,Hill Climbing,15,367.97773354862574,1.3025615788386788,116.33333333333333,13.025615788386615,379.61106688195906,3.374321066216133e-14,1.0
+3,202,Simulated Annealing,15,369.8110668819591,1.4676907639293466e-14,98.0,0.0,379.6110668819591,1.4676907639293466e-14,1.0
+3,202,Genetic Algorithm,15,369.8110668819591,2.601937627656886e-14,98.0,0.0,379.6110668819591,2.601937627656886e-14,1.0
+4,303,Hill Climbing,15,544.5047113675098,2.176760371351363,177.4,21.76760371351361,562.2447113675098,2.935381527858693e-14,1.0
+4,303,Simulated Annealing,15,549.7380447008431,0.20165977949676817,125.06666666666666,2.016597794967223,562.2447113675098,0.0,1.0
+4,303,Genetic Algorithm,15,549.7713780341765,0.2344192418561185,124.73333333333333,2.3441924185608345,562.2447113675098,0.0,1.0
+5,404,Hill Climbing,15,392.23230749069177,5.307739183314788,525.2666666666667,53.07739183314798,444.7589741573584,3.843316584282168e-14,1.0
+5,404,Simulated Annealing,15,408.67230749069176,0.44379317362075793,360.8666666666667,4.437931736207543,444.7589741573584,5.203875255313772e-14,1.0
+5,404,Genetic Algorithm,15,408.5056408240251,0.49980948751452114,362.53333333333336,4.998094875145167,444.7589741573584,4.641245714809236e-14,1.0
+
+=== MÓDULO E: SISTEMA BASADO EN REGLAS (BONO) ===
+Instance,Seed,Initial Decision,POI Decision,Emergency Decision,Emergency Rules Fired
+1,42,EXPLORAR_POI_PRIORITARIO,EXPLORAR_POI_PRIORITARIO,RETORNAR_A_BASE_EMERGENCIA,"['R0_Inferir_Estado_Vulnerable', 'R3_Emergencia_Bateria_Retorno', 'R4_Politica_Modo_Vulnerable']"
+2,101,EXPLORAR_POI_PRIORITARIO,EXPLORAR_POI_PRIORITARIO,RETORNAR_A_BASE_EMERGENCIA,"['R0_Inferir_Estado_Vulnerable', 'R3_Emergencia_Bateria_Retorno', 'R4_Politica_Modo_Vulnerable']"
+3,202,EXPLORAR_POI_PRIORITARIO,EXPLORAR_POI_PRIORITARIO,RETORNAR_A_BASE_EMERGENCIA,"['R0_Inferir_Estado_Vulnerable', 'R4_Politica_Modo_Vulnerable']"
+4,303,EXPLORAR_POI_PRIORITARIO,EXPLORAR_POI_PRIORITARIO,RETORNAR_A_BASE_EMERGENCIA,"['R0_Inferir_Estado_Vulnerable', 'R4_Politica_Modo_Vulnerable']"
+5,404,EXPLORAR_POI_PRIORITARIO,EXPLORAR_POI_PRIORITARIO,RETORNAR_A_BASE_EMERGENCIA,"['R0_Inferir_Estado_Vulnerable', 'R3_Emergencia_Bateria_Retorno', 'R4_Politica_Modo_Vulnerable']"
