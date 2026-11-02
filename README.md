@@ -166,7 +166,7 @@ print("Costo total:", metricas.total_cost)
 print("Nodos expandidos:", metricas.nodes_expanded)
 print("Longitud en pasos:", metricas.path_length)
 print("Camino:", camino)
-)
+
 
 ```
 
